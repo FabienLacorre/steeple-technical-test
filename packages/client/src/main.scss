@@ -1,0 +1,17 @@
+@use '@/design-system/quark/color.scss' as *;
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background-color: $background-color;
+  padding: 0;
+  margin: 0;
+}

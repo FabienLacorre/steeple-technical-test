@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "test-technique-server",
+  "type": "module",
+  "packageManager": "yarn@3.6.1",
+  "main": "src/main.ts",
+  "private": true,
+  "dependencies": {
+    "fastify": "^4.27.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "check:type": "tsc --noEmit",
+    "start": "tsx src/main.ts",
+    "start:watch": "CHOKIDAR_USEPOLLING=true tsx --watch src/main.ts src/**.ts"
+  }
+}
