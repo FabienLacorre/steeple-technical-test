@@ -40,6 +40,8 @@ const croppedTitle = props.title.length > MAX_SIZE ? props.title.slice(0, MAX_SI
     width: 165px;
     border-radius: 8px;
     overflow: hidden;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .ds-card-component__image-container {
